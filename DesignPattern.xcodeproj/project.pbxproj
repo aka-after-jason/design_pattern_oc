@@ -17,6 +17,7 @@
 		789668D925593054007D88D1 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668D825593054007D88D1 /* Tools.m */; };
 		789668DE2559342D007D88D1 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668DD2559342D007D88D1 /* PieChart.m */; };
 		789668E22559353D007D88D1 /* LineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668E12559353D007D88D1 /* LineChart.m */; };
+		789668E525593D99007D88D1 /* chart_type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 789668E425593D99007D88D1 /* chart_type.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		789668DD2559342D007D88D1 /* PieChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
 		789668E02559353D007D88D1 /* LineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineChart.h; sourceTree = "<group>"; };
 		789668E12559353D007D88D1 /* LineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChart.m; sourceTree = "<group>"; };
+		789668E425593D99007D88D1 /* chart_type.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = chart_type.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				789668DD2559342D007D88D1 /* PieChart.m */,
 				789668E02559353D007D88D1 /* LineChart.h */,
 				789668E12559353D007D88D1 /* LineChart.m */,
+				789668E425593D99007D88D1 /* chart_type.plist */,
 			);
 			path = Simple_Factory_Patter;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				789668B825591DEB007D88D1 /* LaunchScreen.storyboard in Resources */,
+				789668E525593D99007D88D1 /* chart_type.plist in Resources */,
 				789668B525591DEB007D88D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
