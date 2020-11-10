@@ -7,20 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78164696255A60D80061B6D7 /* ChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816468C255A60D80061B6D7 /* ChartFactory.m */; };
+		78164697255A60D80061B6D7 /* HistogramChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816468E255A60D80061B6D7 /* HistogramChart.m */; };
+		78164698255A60D80061B6D7 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 78164692255A60D80061B6D7 /* PieChart.m */; };
+		78164699255A60D80061B6D7 /* LineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 78164693255A60D80061B6D7 /* LineChart.m */; };
+		7816469A255A60D80061B6D7 /* chart_type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78164694255A60D80061B6D7 /* chart_type.plist */; };
+		781646A0255A62100061B6D7 /* DatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816469F255A62100061B6D7 /* DatabaseLogger.m */; };
+		781646A4255A62C20061B6D7 /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 781646A3255A62C20061B6D7 /* FileLogger.m */; };
+		781646A9255A63FC0061B6D7 /* DatabaseLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 781646A8255A63FC0061B6D7 /* DatabaseLoggerFactory.m */; };
+		781646AE255A65D40061B6D7 /* FileLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 781646AD255A65D40061B6D7 /* FileLoggerFactory.m */; };
+		781646B2255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781646B1255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m */; };
+		781646B6255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781646B5255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m */; };
+		781646B9255A6CFC0061B6D7 /* class_name.plist in Resources */ = {isa = PBXBuildFile; fileRef = 781646B8255A6CFC0061B6D7 /* class_name.plist */; };
 		789668AA25591DEB007D88D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668A925591DEB007D88D1 /* AppDelegate.m */; };
 		789668B025591DEB007D88D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668AF25591DEB007D88D1 /* ViewController.m */; };
 		789668B525591DEB007D88D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789668B425591DEB007D88D1 /* Assets.xcassets */; };
 		789668B825591DEB007D88D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789668B625591DEB007D88D1 /* LaunchScreen.storyboard */; };
 		789668BB25591DEB007D88D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668BA25591DEB007D88D1 /* main.m */; };
-		789668CD255927DA007D88D1 /* HistogramChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668CC255927DA007D88D1 /* HistogramChart.m */; };
-		789668D2255928B4007D88D1 /* ChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668D1255928B4007D88D1 /* ChartFactory.m */; };
 		789668D925593054007D88D1 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668D825593054007D88D1 /* Tools.m */; };
-		789668DE2559342D007D88D1 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668DD2559342D007D88D1 /* PieChart.m */; };
-		789668E22559353D007D88D1 /* LineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668E12559353D007D88D1 /* LineChart.m */; };
-		789668E525593D99007D88D1 /* chart_type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 789668E425593D99007D88D1 /* chart_type.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7816468B255A60D80061B6D7 /* ChartProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartProtocol.h; sourceTree = "<group>"; };
+		7816468C255A60D80061B6D7 /* ChartFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartFactory.m; sourceTree = "<group>"; };
+		7816468D255A60D80061B6D7 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		7816468E255A60D80061B6D7 /* HistogramChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistogramChart.m; sourceTree = "<group>"; };
+		7816468F255A60D80061B6D7 /* LineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart.h; sourceTree = "<group>"; };
+		78164690255A60D80061B6D7 /* ChartFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartFactory.h; sourceTree = "<group>"; };
+		78164691255A60D80061B6D7 /* HistogramChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramChart.h; sourceTree = "<group>"; };
+		78164692255A60D80061B6D7 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		78164693255A60D80061B6D7 /* LineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart.m; sourceTree = "<group>"; };
+		78164694255A60D80061B6D7 /* chart_type.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = chart_type.plist; sourceTree = "<group>"; };
+		7816469D255A61630061B6D7 /* LoggerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerProtocol.h; sourceTree = "<group>"; };
+		7816469E255A62100061B6D7 /* DatabaseLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseLogger.h; sourceTree = "<group>"; };
+		7816469F255A62100061B6D7 /* DatabaseLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseLogger.m; sourceTree = "<group>"; };
+		781646A2255A62C20061B6D7 /* FileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
+		781646A3255A62C20061B6D7 /* FileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
+		781646A7255A63FC0061B6D7 /* DatabaseLoggerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseLoggerFactory.h; sourceTree = "<group>"; };
+		781646A8255A63FC0061B6D7 /* DatabaseLoggerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseLoggerFactory.m; sourceTree = "<group>"; };
+		781646AB255A64510061B6D7 /* LoggerFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerFactoryProtocol.h; sourceTree = "<group>"; };
+		781646AC255A65D40061B6D7 /* FileLoggerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLoggerFactory.h; sourceTree = "<group>"; };
+		781646AD255A65D40061B6D7 /* FileLoggerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLoggerFactory.m; sourceTree = "<group>"; };
+		781646B0255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_Factory_Pattern_Main_TestVC.h; sourceTree = "<group>"; };
+		781646B1255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_Factory_Pattern_Main_TestVC.m; sourceTree = "<group>"; };
+		781646B4255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory_Method_Pattern_Main_TestVC.h; sourceTree = "<group>"; };
+		781646B5255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory_Method_Pattern_Main_TestVC.m; sourceTree = "<group>"; };
+		781646B8255A6CFC0061B6D7 /* class_name.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = class_name.plist; sourceTree = "<group>"; };
 		789668A525591DEA007D88D1 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789668A825591DEB007D88D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		789668A925591DEB007D88D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,18 +62,8 @@
 		789668B725591DEB007D88D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		789668B925591DEB007D88D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		789668BA25591DEB007D88D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		789668CA2559270D007D88D1 /* ChartProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartProtocol.h; sourceTree = "<group>"; };
-		789668CB255927DA007D88D1 /* HistogramChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistogramChart.h; sourceTree = "<group>"; };
-		789668CC255927DA007D88D1 /* HistogramChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistogramChart.m; sourceTree = "<group>"; };
-		789668D0255928B4007D88D1 /* ChartFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartFactory.h; sourceTree = "<group>"; };
-		789668D1255928B4007D88D1 /* ChartFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartFactory.m; sourceTree = "<group>"; };
 		789668D725593054007D88D1 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		789668D825593054007D88D1 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
-		789668DC2559342D007D88D1 /* PieChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
-		789668DD2559342D007D88D1 /* PieChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
-		789668E02559353D007D88D1 /* LineChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineChart.h; sourceTree = "<group>"; };
-		789668E12559353D007D88D1 /* LineChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineChart.m; sourceTree = "<group>"; };
-		789668E425593D99007D88D1 /* chart_type.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = chart_type.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7816468A255A60D80061B6D7 /* Simple_Factory_Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				7816468B255A60D80061B6D7 /* ChartProtocol.h */,
+				7816468C255A60D80061B6D7 /* ChartFactory.m */,
+				7816468D255A60D80061B6D7 /* PieChart.h */,
+				7816468E255A60D80061B6D7 /* HistogramChart.m */,
+				7816468F255A60D80061B6D7 /* LineChart.h */,
+				78164690255A60D80061B6D7 /* ChartFactory.h */,
+				78164691255A60D80061B6D7 /* HistogramChart.h */,
+				78164692255A60D80061B6D7 /* PieChart.m */,
+				78164693255A60D80061B6D7 /* LineChart.m */,
+				78164694255A60D80061B6D7 /* chart_type.plist */,
+				781646B0255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.h */,
+				781646B1255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m */,
+			);
+			path = Simple_Factory_Pattern;
+			sourceTree = "<group>";
+		};
+		78164695255A60D80061B6D7 /* Factory_Method_Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				7816469D255A61630061B6D7 /* LoggerProtocol.h */,
+				7816469E255A62100061B6D7 /* DatabaseLogger.h */,
+				7816469F255A62100061B6D7 /* DatabaseLogger.m */,
+				781646A2255A62C20061B6D7 /* FileLogger.h */,
+				781646A3255A62C20061B6D7 /* FileLogger.m */,
+				781646A7255A63FC0061B6D7 /* DatabaseLoggerFactory.h */,
+				781646A8255A63FC0061B6D7 /* DatabaseLoggerFactory.m */,
+				781646AB255A64510061B6D7 /* LoggerFactoryProtocol.h */,
+				781646AC255A65D40061B6D7 /* FileLoggerFactory.h */,
+				781646AD255A65D40061B6D7 /* FileLoggerFactory.m */,
+				781646B4255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.h */,
+				781646B5255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m */,
+				781646B8255A6CFC0061B6D7 /* class_name.plist */,
+			);
+			path = Factory_Method_Pattern;
+			sourceTree = "<group>";
+		};
 		7896689C25591DEA007D88D1 = {
 			isa = PBXGroup;
 			children = (
@@ -90,27 +151,11 @@
 		789668C8255926B1007D88D1 /* design_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				78164695255A60D80061B6D7 /* Factory_Method_Pattern */,
+				7816468A255A60D80061B6D7 /* Simple_Factory_Pattern */,
 				789668D625593044007D88D1 /* Tools */,
-				789668C9255926B1007D88D1 /* Simple_Factory_Patter */,
 			);
 			path = design_pattern;
-			sourceTree = "<group>";
-		};
-		789668C9255926B1007D88D1 /* Simple_Factory_Patter */ = {
-			isa = PBXGroup;
-			children = (
-				789668CA2559270D007D88D1 /* ChartProtocol.h */,
-				789668CB255927DA007D88D1 /* HistogramChart.h */,
-				789668CC255927DA007D88D1 /* HistogramChart.m */,
-				789668D0255928B4007D88D1 /* ChartFactory.h */,
-				789668D1255928B4007D88D1 /* ChartFactory.m */,
-				789668DC2559342D007D88D1 /* PieChart.h */,
-				789668DD2559342D007D88D1 /* PieChart.m */,
-				789668E02559353D007D88D1 /* LineChart.h */,
-				789668E12559353D007D88D1 /* LineChart.m */,
-				789668E425593D99007D88D1 /* chart_type.plist */,
-			);
-			path = Simple_Factory_Patter;
 			sourceTree = "<group>";
 		};
 		789668D625593044007D88D1 /* Tools */ = {
@@ -179,8 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781646B9255A6CFC0061B6D7 /* class_name.plist in Resources */,
 				789668B825591DEB007D88D1 /* LaunchScreen.storyboard in Resources */,
-				789668E525593D99007D88D1 /* chart_type.plist in Resources */,
+				7816469A255A60D80061B6D7 /* chart_type.plist in Resources */,
 				789668B525591DEB007D88D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,14 +238,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789668E22559353D007D88D1 /* LineChart.m in Sources */,
-				789668D2255928B4007D88D1 /* ChartFactory.m in Sources */,
+				78164699255A60D80061B6D7 /* LineChart.m in Sources */,
+				78164696255A60D80061B6D7 /* ChartFactory.m in Sources */,
 				789668B025591DEB007D88D1 /* ViewController.m in Sources */,
 				789668AA25591DEB007D88D1 /* AppDelegate.m in Sources */,
-				789668DE2559342D007D88D1 /* PieChart.m in Sources */,
+				781646B6255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m in Sources */,
+				781646A0255A62100061B6D7 /* DatabaseLogger.m in Sources */,
+				78164698255A60D80061B6D7 /* PieChart.m in Sources */,
+				781646B2255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m in Sources */,
+				781646AE255A65D40061B6D7 /* FileLoggerFactory.m in Sources */,
 				789668D925593054007D88D1 /* Tools.m in Sources */,
+				781646A9255A63FC0061B6D7 /* DatabaseLoggerFactory.m in Sources */,
 				789668BB25591DEB007D88D1 /* main.m in Sources */,
-				789668CD255927DA007D88D1 /* HistogramChart.m in Sources */,
+				78164697255A60D80061B6D7 /* HistogramChart.m in Sources */,
+				781646A4255A62C20061B6D7 /* FileLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

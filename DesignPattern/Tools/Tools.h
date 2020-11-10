@@ -18,6 +18,12 @@ typedef  NS_ENUM(NSInteger,ChartType){
 
 @interface Tools : NSObject
 
+/// 读取plist文件，获取chart_type,并返回
++ (NSString *)get_chart_type;
+
+/// 读取plist文件，获取className,并返回一个类
++ (id)get_object;
+
 @end
 
 NS_ASSUME_NONNULL_END
