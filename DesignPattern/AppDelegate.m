@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import "Factory_Method_Pattern_Main_TestVC.h"
+#import "Abstract_Factory_Pattern_Main_TestVC.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
     
         self.window = [[UIWindow alloc] init];
-    Factory_Method_Pattern_Main_TestVC *vc = [Factory_Method_Pattern_Main_TestVC new];
+    Abstract_Factory_Pattern_Main_TestVC *vc = [Abstract_Factory_Pattern_Main_TestVC new];
         vc.view.backgroundColor = UIColor.whiteColor;
         self.window.rootViewController = vc;
         [self.window makeKeyAndVisible];

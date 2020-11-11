@@ -19,6 +19,15 @@
 		781646B2255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781646B1255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m */; };
 		781646B6255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781646B5255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m */; };
 		781646B9255A6CFC0061B6D7 /* class_name.plist in Resources */ = {isa = PBXBuildFile; fileRef = 781646B8255A6CFC0061B6D7 /* class_name.plist */; };
+		78391501255BC1D80015CB7E /* Abstract_Factory_Pattern_Main_TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78391500255BC1D80015CB7E /* Abstract_Factory_Pattern_Main_TestVC.m */; };
+		78391507255BC2850015CB7E /* SpringButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78391506255BC2850015CB7E /* SpringButton.m */; };
+		7839150C255BC2CF0015CB7E /* SummerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7839150B255BC2CF0015CB7E /* SummerButton.m */; };
+		78391511255BC36B0015CB7E /* SpringTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 78391510255BC36B0015CB7E /* SpringTextField.m */; };
+		78391516255BC3B60015CB7E /* SummerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 78391515255BC3B60015CB7E /* SummerTextField.m */; };
+		7839151B255BC42B0015CB7E /* SpringComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7839151A255BC42B0015CB7E /* SpringComboBox.m */; };
+		78391520255BC4630015CB7E /* SummerComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7839151F255BC4630015CB7E /* SummerComboBox.m */; };
+		78391525255BC4F00015CB7E /* SpringSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 78391524255BC4F00015CB7E /* SpringSkinFactory.m */; };
+		78391529255BC7200015CB7E /* SummerSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 78391528255BC7200015CB7E /* SummerSkinFactory.m */; };
 		789668AA25591DEB007D88D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668A925591DEB007D88D1 /* AppDelegate.m */; };
 		789668B025591DEB007D88D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789668AF25591DEB007D88D1 /* ViewController.m */; };
 		789668B525591DEB007D88D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789668B425591DEB007D88D1 /* Assets.xcassets */; };
@@ -53,6 +62,28 @@
 		781646B4255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory_Method_Pattern_Main_TestVC.h; sourceTree = "<group>"; };
 		781646B5255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory_Method_Pattern_Main_TestVC.m; sourceTree = "<group>"; };
 		781646B8255A6CFC0061B6D7 /* class_name.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = class_name.plist; sourceTree = "<group>"; };
+		783914FF255BC1D80015CB7E /* Abstract_Factory_Pattern_Main_TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Abstract_Factory_Pattern_Main_TestVC.h; sourceTree = "<group>"; };
+		78391500255BC1D80015CB7E /* Abstract_Factory_Pattern_Main_TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abstract_Factory_Pattern_Main_TestVC.m; sourceTree = "<group>"; };
+		78391504255BC24D0015CB7E /* ButtonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonProtocol.h; sourceTree = "<group>"; };
+		78391505255BC2850015CB7E /* SpringButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringButton.h; sourceTree = "<group>"; };
+		78391506255BC2850015CB7E /* SpringButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringButton.m; sourceTree = "<group>"; };
+		7839150A255BC2CF0015CB7E /* SummerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerButton.h; sourceTree = "<group>"; };
+		7839150B255BC2CF0015CB7E /* SummerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerButton.m; sourceTree = "<group>"; };
+		7839150E255BC3340015CB7E /* TextFieldProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldProtocol.h; sourceTree = "<group>"; };
+		7839150F255BC36B0015CB7E /* SpringTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringTextField.h; sourceTree = "<group>"; };
+		78391510255BC36B0015CB7E /* SpringTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringTextField.m; sourceTree = "<group>"; };
+		78391514255BC3B60015CB7E /* SummerTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerTextField.h; sourceTree = "<group>"; };
+		78391515255BC3B60015CB7E /* SummerTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerTextField.m; sourceTree = "<group>"; };
+		78391518255BC3F60015CB7E /* ComboBoxProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComboBoxProtocol.h; sourceTree = "<group>"; };
+		78391519255BC42B0015CB7E /* SpringComboBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringComboBox.h; sourceTree = "<group>"; };
+		7839151A255BC42B0015CB7E /* SpringComboBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringComboBox.m; sourceTree = "<group>"; };
+		7839151E255BC4630015CB7E /* SummerComboBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerComboBox.h; sourceTree = "<group>"; };
+		7839151F255BC4630015CB7E /* SummerComboBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerComboBox.m; sourceTree = "<group>"; };
+		78391522255BC4A30015CB7E /* SkinFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkinFactoryProtocol.h; sourceTree = "<group>"; };
+		78391523255BC4F00015CB7E /* SpringSkinFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringSkinFactory.h; sourceTree = "<group>"; };
+		78391524255BC4F00015CB7E /* SpringSkinFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringSkinFactory.m; sourceTree = "<group>"; };
+		78391527255BC7200015CB7E /* SummerSkinFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummerSkinFactory.h; sourceTree = "<group>"; };
+		78391528255BC7200015CB7E /* SummerSkinFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerSkinFactory.m; sourceTree = "<group>"; };
 		789668A525591DEA007D88D1 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789668A825591DEB007D88D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		789668A925591DEB007D88D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +147,35 @@
 			path = Factory_Method_Pattern;
 			sourceTree = "<group>";
 		};
+		783914FE255BC1B20015CB7E /* Abstract_Factory_Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				783914FF255BC1D80015CB7E /* Abstract_Factory_Pattern_Main_TestVC.h */,
+				78391500255BC1D80015CB7E /* Abstract_Factory_Pattern_Main_TestVC.m */,
+				78391504255BC24D0015CB7E /* ButtonProtocol.h */,
+				78391505255BC2850015CB7E /* SpringButton.h */,
+				78391506255BC2850015CB7E /* SpringButton.m */,
+				7839150A255BC2CF0015CB7E /* SummerButton.h */,
+				7839150B255BC2CF0015CB7E /* SummerButton.m */,
+				7839150E255BC3340015CB7E /* TextFieldProtocol.h */,
+				7839150F255BC36B0015CB7E /* SpringTextField.h */,
+				78391510255BC36B0015CB7E /* SpringTextField.m */,
+				78391514255BC3B60015CB7E /* SummerTextField.h */,
+				78391515255BC3B60015CB7E /* SummerTextField.m */,
+				78391518255BC3F60015CB7E /* ComboBoxProtocol.h */,
+				78391519255BC42B0015CB7E /* SpringComboBox.h */,
+				7839151A255BC42B0015CB7E /* SpringComboBox.m */,
+				7839151E255BC4630015CB7E /* SummerComboBox.h */,
+				7839151F255BC4630015CB7E /* SummerComboBox.m */,
+				78391522255BC4A30015CB7E /* SkinFactoryProtocol.h */,
+				78391523255BC4F00015CB7E /* SpringSkinFactory.h */,
+				78391524255BC4F00015CB7E /* SpringSkinFactory.m */,
+				78391527255BC7200015CB7E /* SummerSkinFactory.h */,
+				78391528255BC7200015CB7E /* SummerSkinFactory.m */,
+			);
+			path = Abstract_Factory_Pattern;
+			sourceTree = "<group>";
+		};
 		7896689C25591DEA007D88D1 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +211,7 @@
 		789668C8255926B1007D88D1 /* design_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				783914FE255BC1B20015CB7E /* Abstract_Factory_Pattern */,
 				78164695255A60D80061B6D7 /* Factory_Method_Pattern */,
 				7816468A255A60D80061B6D7 /* Simple_Factory_Pattern */,
 				789668D625593044007D88D1 /* Tools */,
@@ -245,13 +306,22 @@
 				781646B6255A68030061B6D7 /* Factory_Method_Pattern_Main_TestVC.m in Sources */,
 				781646A0255A62100061B6D7 /* DatabaseLogger.m in Sources */,
 				78164698255A60D80061B6D7 /* PieChart.m in Sources */,
+				78391501255BC1D80015CB7E /* Abstract_Factory_Pattern_Main_TestVC.m in Sources */,
+				78391520255BC4630015CB7E /* SummerComboBox.m in Sources */,
+				78391516255BC3B60015CB7E /* SummerTextField.m in Sources */,
+				78391529255BC7200015CB7E /* SummerSkinFactory.m in Sources */,
+				78391507255BC2850015CB7E /* SpringButton.m in Sources */,
+				7839150C255BC2CF0015CB7E /* SummerButton.m in Sources */,
+				78391525255BC4F00015CB7E /* SpringSkinFactory.m in Sources */,
 				781646B2255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m in Sources */,
 				781646AE255A65D40061B6D7 /* FileLoggerFactory.m in Sources */,
+				78391511255BC36B0015CB7E /* SpringTextField.m in Sources */,
 				789668D925593054007D88D1 /* Tools.m in Sources */,
 				781646A9255A63FC0061B6D7 /* DatabaseLoggerFactory.m in Sources */,
 				789668BB25591DEB007D88D1 /* main.m in Sources */,
 				78164697255A60D80061B6D7 /* HistogramChart.m in Sources */,
 				781646A4255A62C20061B6D7 /* FileLogger.m in Sources */,
+				7839151B255BC42B0015CB7E /* SpringComboBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
