@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7812ED53255CE402007D74B0 /* NormalSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7812ED52255CE402007D74B0 /* NormalSingleton.m */; };
+		7812ED5A255CE6FB007D74B0 /* Singleton_Pattern_Main_TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7812ED59255CE6FB007D74B0 /* Singleton_Pattern_Main_TestVC.m */; };
+		7812ED5E255CE890007D74B0 /* GCDSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7812ED5D255CE890007D74B0 /* GCDSingleton.m */; };
 		78164696255A60D80061B6D7 /* ChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816468C255A60D80061B6D7 /* ChartFactory.m */; };
 		78164697255A60D80061B6D7 /* HistogramChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816468E255A60D80061B6D7 /* HistogramChart.m */; };
 		78164698255A60D80061B6D7 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 78164692255A60D80061B6D7 /* PieChart.m */; };
@@ -37,6 +40,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7812ED51255CE402007D74B0 /* NormalSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalSingleton.h; sourceTree = "<group>"; };
+		7812ED52255CE402007D74B0 /* NormalSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalSingleton.m; sourceTree = "<group>"; };
+		7812ED58255CE6FB007D74B0 /* Singleton_Pattern_Main_TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton_Pattern_Main_TestVC.h; sourceTree = "<group>"; };
+		7812ED59255CE6FB007D74B0 /* Singleton_Pattern_Main_TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton_Pattern_Main_TestVC.m; sourceTree = "<group>"; };
+		7812ED5C255CE890007D74B0 /* GCDSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDSingleton.h; sourceTree = "<group>"; };
+		7812ED5D255CE890007D74B0 /* GCDSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDSingleton.m; sourceTree = "<group>"; };
 		7816468B255A60D80061B6D7 /* ChartProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartProtocol.h; sourceTree = "<group>"; };
 		7816468C255A60D80061B6D7 /* ChartFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartFactory.m; sourceTree = "<group>"; };
 		7816468D255A60D80061B6D7 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
@@ -108,6 +117,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7812ED4C255CE1A8007D74B0 /* Singleton_Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				7812ED51255CE402007D74B0 /* NormalSingleton.h */,
+				7812ED52255CE402007D74B0 /* NormalSingleton.m */,
+				7812ED58255CE6FB007D74B0 /* Singleton_Pattern_Main_TestVC.h */,
+				7812ED59255CE6FB007D74B0 /* Singleton_Pattern_Main_TestVC.m */,
+				7812ED5C255CE890007D74B0 /* GCDSingleton.h */,
+				7812ED5D255CE890007D74B0 /* GCDSingleton.m */,
+			);
+			path = Singleton_Pattern;
+			sourceTree = "<group>";
+		};
 		7816468A255A60D80061B6D7 /* Simple_Factory_Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +233,7 @@
 		789668C8255926B1007D88D1 /* design_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				7812ED4C255CE1A8007D74B0 /* Singleton_Pattern */,
 				783914FE255BC1B20015CB7E /* Abstract_Factory_Pattern */,
 				78164695255A60D80061B6D7 /* Factory_Method_Pattern */,
 				7816468A255A60D80061B6D7 /* Simple_Factory_Pattern */,
@@ -299,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7812ED5E255CE890007D74B0 /* GCDSingleton.m in Sources */,
 				78164699255A60D80061B6D7 /* LineChart.m in Sources */,
 				78164696255A60D80061B6D7 /* ChartFactory.m in Sources */,
 				789668B025591DEB007D88D1 /* ViewController.m in Sources */,
@@ -316,11 +340,13 @@
 				781646B2255A673F0061B6D7 /* Simple_Factory_Pattern_Main_TestVC.m in Sources */,
 				781646AE255A65D40061B6D7 /* FileLoggerFactory.m in Sources */,
 				78391511255BC36B0015CB7E /* SpringTextField.m in Sources */,
+				7812ED5A255CE6FB007D74B0 /* Singleton_Pattern_Main_TestVC.m in Sources */,
 				789668D925593054007D88D1 /* Tools.m in Sources */,
 				781646A9255A63FC0061B6D7 /* DatabaseLoggerFactory.m in Sources */,
 				789668BB25591DEB007D88D1 /* main.m in Sources */,
 				78164697255A60D80061B6D7 /* HistogramChart.m in Sources */,
 				781646A4255A62C20061B6D7 /* FileLogger.m in Sources */,
+				7812ED53255CE402007D74B0 /* NormalSingleton.m in Sources */,
 				7839151B255BC42B0015CB7E /* SpringComboBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
